@@ -11,7 +11,15 @@ abstract class Person {
     required this.birthDate,
   });
   
-  String get fullName;
-  int get age;
+  String get fullName => "$firstName $lastName";
+  int get age {
+    final now = DateTime.now();
+    int years = now.year - birthDate.year;
+    if (now.month < birthDate.month 
+        || (now.month == birthDate.month && now.day < birthDate.day)) {
+      years--;
+    }
+    return years;
+  }
   String get role;
 }
