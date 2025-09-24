@@ -48,7 +48,7 @@ class Student {
     grades[courseId] = grade;
   }
 
-  List<String> getPassesCourses() {
+  List<String> getPassedCourses() {
     return grades.entries
         .where((entry) => entry.value >= 60)
         .map((entry) => entry.key)
