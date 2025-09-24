@@ -51,7 +51,7 @@ class University {
     }).toList();
   }
 
-  Map<String, dynamic> genereteStatistics() {
+  Map<String, dynamic> generateStatistics() {
     final totalStudents = students.length;
     final averageGpa = students.isEmpty ? 0.0 
         : students.map((s) => s.gpa).reduce((a, b) => a + b) / totalStudents;
