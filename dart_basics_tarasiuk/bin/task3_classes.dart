@@ -1,7 +1,6 @@
 import 'package:dart_basics_tarasiuk/models/university.dart';
 import 'package:dart_basics_tarasiuk/models/student.dart';
 import 'package:dart_basics_tarasiuk/models/professor.dart';
-import 'package:dart_basics_tarasiuk/models/person.dart';
 import 'package:dart_basics_tarasiuk/models/course.dart';
 
 void main() {
