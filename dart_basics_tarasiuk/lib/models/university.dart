@@ -16,6 +16,12 @@ class University {
   }) : students = students ?? [],
        professors = professors ?? [],
        courses = courses ?? [];
+
+  void addProfessor(Professor professor) {
+    if (!professors.any((p) => p.id == professor.id)) {
+      professors.add(professor);
+    }
+  }
   
   void addStudent(Student student) {
     if (!students.any((s) => s.id == student.id)) {

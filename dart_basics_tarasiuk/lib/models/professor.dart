@@ -38,6 +38,6 @@ class Professor extends Person {
 
   @override
   String toString() {
-    return 'Professor(name: $fullName, department: $department, salary: $salary)';
+    return 'Professor(name: $fullName, department: $department, salary: $salary, courses: ${taughtCourses.join(', ')})';
   }
 }
