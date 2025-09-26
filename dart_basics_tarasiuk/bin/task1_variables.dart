@@ -23,7 +23,7 @@ void demonstrateNumbers() {
   print('Додавання: ${a + c}');
   print('Віднімання: ${a - c}');
   print('Множення: ${a * c}');
-  print('Ділення: ${a / c}');  // всегда возвращает double
+  print('Ділення: ${a / c}');  //всегда возвращает double
   print('Залишок: ${a % 3}');
   print('Зведення у ступінь: ${a * a}');
 
@@ -99,7 +99,7 @@ void demonstrateCollections() {
 
   //Set
   Set<String> fruits = {'apple', 'banana', 'orange'};
-  fruits.add('banana'); // не додасться
+  fruits.add('banana'); //не додасться
   fruits.add('kiwi');
   print('Set: $fruits');
   print('Contains "apple": ${fruits.contains("apple")}');
@@ -121,17 +121,17 @@ void demonstrateCollections() {
 
 void demonstrateNullSafety() {
   //Nullable типи
-  String? nullableString; // може бути null
-  String nonNullable = 'Hello'; // не може бути null
+  String? nullableString; //може бути null
+  String nonNullable = 'Hello'; //не може бути null
 
   print('nullableString: $nullableString');
   print('nonNullable: $nonNullable');
 
   //Null-aware оператори
   String? name;
-  print('Ім\'я або "Unknown": ${name ?? "Unknown"}'); // оператор ??
+  print('Ім\'я або "Unknown": ${name ?? "Unknown"}'); //оператор ??
 
-  name ??= "Alice"; // якщо name == null, присвоїти "Alice"
+  name ??= "Alice"; //якщо name == null, присвоїти "Alice"
   print('Після ??= : $name');
 
   //Безпечний виклик методу (якщо null, то нічого не виконається)
