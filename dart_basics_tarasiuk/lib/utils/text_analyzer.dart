@@ -11,9 +11,12 @@ void main() {
 }
 
 Map<String, int> analyzeText(String text) {
-  final charCount = text.length;
-  final words = text.split(RegExp(r'\s+'));
-  final wordCount = words.where((word) => word.isNotEmpty).length;
+  final charCount = text.trim().replaceAll(RegExp(r'\s'), '').length;
+  final wordCount = text
+      .trim()
+      .split(RegExp(r'\s+'))
+      .where((word) => word.isNotEmpty)
+      .length;
 
   return {
     'charCount': charCount,
