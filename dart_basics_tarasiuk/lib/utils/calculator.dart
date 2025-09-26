@@ -12,30 +12,21 @@ void main() {
   print('Оберіть операцію (+, -, *, /): ');
   String operation = stdin.readLineSync()!;
 
-  double result;
-
-  switch (operation) {
-    case '+': 
-      result = num1 + num2;
-      break;
-    case '-':
-      result = num1 - num2;
-      break;
-    case '*':
-      result = num1 * num2;
-      break;
-    case '/':
-      if (num2 != 0) {
-        result = num1 / num2;
-      } else {
-        print('Помилка: ділення на нуль');
-        return;
-      }
-      break;
-    default:
-      print('Невідома операція');
-      return;
-  }
+  double result = calculate(num1, num2, operation);
 
   print('Результат: $result');
+}
+
+double calculate(double num1, double num2, String operation) {
+  switch (operation) {
+    case '+': return num1 + num2;
+    case '-': return num1 - num2;
+    case '*': return num1 * num2;
+    case '/': 
+      if (num2 != 0) {
+        return num1 / num2;
+      }
+      throw Exception('Помилка: ділення на нуль');
+    default: throw Exception('Невідома операція');
+  }
 }
