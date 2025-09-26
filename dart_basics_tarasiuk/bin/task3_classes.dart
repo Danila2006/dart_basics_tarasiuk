@@ -10,10 +10,11 @@ void main() {
 }
 
 void runUniversityDemo() {
+  print('=== runUniversityDemo method ===');
   //Створення університету
   University university = University(name: "Dart University");
 
-  //Додавання студентів
+  //Створення студентів
   Student anna = Student(
     id: "tar1", 
     firstName: "Anna", 
@@ -28,10 +29,11 @@ void runUniversityDemo() {
     birthDate: DateTime(2006, 10, 27),
   );
 
+  //Додавання студентів
   university.addStudent(anna);
   university.addStudent(danil);
 
-  //Додавання професорів
+  //Створення професорів
   Professor professorDmitrii = Professor(
     id: "prof1", 
     firstName: "Dmitrii", 
@@ -50,6 +52,10 @@ void runUniversityDemo() {
     salary: 73000,
   );
 
+  //Додавання професорів
+  university.addProfessor(professorDmitrii);
+  university.addProfessor(professorAnatolii);
+
   //Створення курсів
   Course dartCourse = Course(
     id: "cour1", 
@@ -67,6 +73,11 @@ void runUniversityDemo() {
     instructor: professorAnatolii.fullName,
   );
 
+  //Присвоєння курсів профессорам
+  professorDmitrii.assignCourse("cour1");
+  professorAnatolii.assignCourse("cour2");
+
+  //Додавання курсів
   university.courses.addAll([dartCourse, mathCourse]);
 
   //Запис студентів на курси
@@ -100,7 +111,7 @@ void runUniversityDemo() {
   print("=== Professors ===");
   for (var prof in university.professors) {
     print(prof);
-    print("Taught courses: ${prof.taughtCourses}\n");
+    print("Taught courses: ${prof.taughtCourses.join(', ')}\n");
   }
 
   //Відображення статистики курсів
