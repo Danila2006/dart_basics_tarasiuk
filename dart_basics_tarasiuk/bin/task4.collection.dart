@@ -78,7 +78,7 @@ void main() {
       firstName: 'Yurii',
       lastName: 'Tarasiuk',
       birthDate: DateTime(2004, 5, 20),
-      enrolledCourses: ['cou2', 'cour3'],
+      enrolledCourses: ['cour2', 'cour3'],
       grades: {'cour2': 95, 'cour3': 88}
     )
   ];
@@ -93,7 +93,7 @@ void main() {
 }
 
 void demonstrateLists(List<Student> students) {
-  print('\n=== Lists Demo ===');
+  print('\n=== demonstrateLists method ===');
 
   final numbers = [1, 2, 3, 4, 5, 6, 7];
   print('Original numbers: $numbers');
@@ -104,14 +104,14 @@ void demonstrateLists(List<Student> students) {
 }
 
 void demonstrateSets(List<Student> students) {
-  print('\n=== Sets Demo ===');
+  print('\n=== demonstrateSets method ===');
 
   final commonCourses = DataProcessor.findCommonCourses(students);
   print('Common courses among all students: $commonCourses');
 }
 
 void demonstrateMaps(List<Student> students) {
-  print('\n=== Maps Demo ===');
+  print('\n=== demonstrateMaps method ===');
 
   String text = 'Dart is a programmin language';
   print('Word count: ${DataProcessor.countWords(text)}');
@@ -127,11 +127,11 @@ void demonstrateMaps(List<Student> students) {
 }
 
 void demonstrateAdvancedOperations(University university) {
-  print('\n=== Advanced Operations Demo ===');
+  print('\n=== demonstrateAdvancedOperations method ===');
 
   final report = DataProcessor.generateReport(university);
   print('Generated University Report:');
   for (var entry in report) {
-    print(entry);
+    print('$entry\n');
   }
 }
