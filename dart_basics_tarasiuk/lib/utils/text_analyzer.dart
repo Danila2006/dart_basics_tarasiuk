@@ -4,11 +4,19 @@ void main() {
   print('Введіть текст для аналізу:');
   String text = stdin.readLineSync()!;
 
-  int charCount = text.length;
+  final result = analyzeText(text);
 
-  List<String> words = text.split(RegExp(r'\s+'));
-  int wordCount = words.where((word) => word.isNotEmpty).length;
+  print('Кількість символів: ${result['charCount']}');
+  print('Кількість слів: ${result['wordCount']}');
+}
 
-  print('Кількість символів: $charCount');
-  print('Кількість слів: $wordCount');
+Map<String, int> analyzeText(String text) {
+  final charCount = text.length;
+  final words = text.split(RegExp(r'\s+'));
+  final wordCount = words.where((word) => word.isNotEmpty).length;
+
+  return {
+    'charCount': charCount,
+    'wordCount': wordCount
+  };
 }
