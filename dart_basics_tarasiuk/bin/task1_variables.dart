@@ -1,8 +1,15 @@
 void main() {
   print('=== Dart Variables & Types Demo ===');
+
+  demonstrateNumbers();
+  demonstrateStrings();
+  demonstrateBooleans();
+  demonstrateCollections();
+  demonstrateNullSafety();
 }
 
 void demonstrateNumbers() {
+  print('=== demonstrateNumbers menthod ===');
   //Приклад числових типів
   int a = 17;
   double b = 3.85;
@@ -28,10 +35,11 @@ void demonstrateNumbers() {
 }
 
 void demonstrateStrings() {
+  print('=== demonstrateStrings menthod ===');
   //Створення рядків та інтерполяція
-  String name = "Danil";
+  String name = 'Danil';
   int age = 18;
-  print("Hello, I'm $name! I'm $age years old");
+  print('Hello, I\'m $name! I\'m $age years old');
 
   //Багаторядкові рядки та escape-послідовності
   String multiLine = '''
@@ -41,7 +49,7 @@ It can span multiple lines.
   print(multiLine);
 
   //Методи рядків
-  String text = "Moon is perfect";
+  String text = 'Moon is perfect';
   print('Length: ${text.length}');
   print('Uppercase: ${text.toUpperCase()}');
   print('Lowercase: ${text.toLowerCase()}');
@@ -52,6 +60,7 @@ It can span multiple lines.
 }
 
 void demonstrateBooleans() {
+  print('=== demonstrateBooleans method ===');
   //Бульові значення
   bool isCppHard = true;
   bool isJavaHard = false;
@@ -78,6 +87,7 @@ void demonstrateBooleans() {
 }
 
 void demonstrateCollections() {
+  print('=== demonstrateCollections method ==');
   //List
   List<int> nums = [1, 2, 3, 4];
   nums.add(5);
@@ -112,7 +122,7 @@ void demonstrateCollections() {
 void demonstrateNullSafety() {
   //Nullable типи
   String? nullableString; // може бути null
-  String nonNullable = "Hello"; // не може бути null
+  String nonNullable = 'Hello'; // не може бути null
 
   print('nullableString: $nullableString');
   print('nonNullable: $nonNullable');
@@ -133,10 +143,10 @@ void demonstrateNullSafety() {
   print('late value: $value');
 
   //required параметри
-  greetUser(name: "Bob");
+  greetUser(name: 'Bob');
 }
 
 // Функцічя з required параметром
 void greetUser({required String name}) {
-  print("Hello, $name!");
+  print('Hello, $name!');
 }
