@@ -32,42 +32,42 @@
 ## Результати виконання програм
 ### Завдання 2.1
 ![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part1.png)  
-![Variables Demo](screenshots/task1_variables_part2.png)
-![Variables Demo](screenshots/task1_variables_part3.png)
-![Variables Demo](screenshots/task1_variables_part4.png)
+![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part2.png)
+![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part3.png)
+![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part4.png)
 *Файл: `task1_variables.dart`*
 
 ### Завдання 2.2
-![Function Demo](screenshots/task2_function.png)  
+![Function Demo](dart_basics_tarasiuk/lib/screenshots/task2_function.png)  
 *Файл: `task2_function.dart`*
 
 ### Завдання 2.3
 #### Task 1 Calculator
-![Calculator Demo](screenshots/calculator.png)  
+![Calculator Demo](dart_basics_tarasiuk/lib/screenshots/calculator.png)  
 *Файл: `calculator.dart`*
 
 #### Task 2 Text Analyzer
-![Text Analyzer Demo](screenshots/text_analyzer.png)  
+![Text Analyzer Demo](dart_basics_tarasiuk/lib/screenshots/text_analyzer.png)  
 *Файл: `text_analyzer.dart`*
 
 ### Завдання 3.3 – University Management System
-![Classes Demo](screenshots/task3_classes_part1.png)
-![Classes Demo](screenshots/task3_classes_part2.png)  
+![Classes Demo](dart_basics_tarasiuk/lib/screenshots/task3_classes_part1.png)
+![Classes Demo](dart_basics_tarasiuk/lib/screenshots/task3_classes_part2.png)  
 *Файл: `task3_classes.dart`*
 
 ### Завдання 4.1 – Колекції та обробка даних
-![Collections Demo](screenshots/task4_collections_part1.png)  
-![Collections Demo](screenshots/task4_collections_part2.png)  
+![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part1.png)  
+![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part2.png)  
 *Файл: `task4_collections.dart`*
 
 ## Результати виконання тестів
 
 ### Models Test
-![Models Test](screenshots/models_test.png)  
+![Models Test](dart_basics_tarasiuk/lib/screenshots/models_test.png)  
 *Файл: `models_test.dart`*
 
 ### Utils Test
-![Utils Test](screenshots/utils_test.png)  
+![Utils Test](dart_basics_tarasiuk/lib/screenshots/utils_test.png)  
 *Файл: `utils_test.dart`*
 
 
