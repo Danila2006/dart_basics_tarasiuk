@@ -295,9 +295,9 @@
 *Файл: `task3_classes.dart`*
 
 ### Завдання 4.2 – Технічні специфікації Collections Demo
-![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part1.png)  
-![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part2.png)  
-*Файл: `task4_collections.dart`*
+![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collection_part1.png)  
+![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collection_part2.png)  
+*Файл: `task4_collection.dart`*
 
 ## Результати виконання тестів
 ### Models Test
