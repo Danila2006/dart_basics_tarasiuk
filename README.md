@@ -31,7 +31,7 @@
 
 ## Результати виконання програм
 ### Завдання 2.1
-![Variables Demo](screenshots/task1_variables_part1.png)  
+![Variables Demo](lib/screenshots/task1_variables_part1.png)  
 ![Variables Demo](screenshots/task1_variables_part2.png)
 ![Variables Demo](screenshots/task1_variables_part3.png)
 ![Variables Demo](screenshots/task1_variables_part4.png)
