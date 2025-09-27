@@ -175,7 +175,7 @@
 - `getAvailableCoursesForStudent(studentId)` – доступні курси для студента  
 - `generateStatistics()` – статистика університету (кількість студентів, середній GPA, кількість курсів та професорів)  
 
-### Завдання 3.3 – Deliverable: Object-Oriented System Demo
+### Завдання 3.3 – Object-Oriented System Demo
 
 Ця програма демонструє створення **об’єктно-орієнтованої системи управління університетом** з використанням класів `Student`, `Professor`, `Course` та `University`.
 
@@ -254,47 +254,52 @@
 ## Запуск програм
 У проєкті деякі завдання реалізовані як **окремі Dart-скрипти** у папці `bin/`,  
 інші — як **консольні програми/утиліти** у папці `lib/utils/`.
-## Завдання 2 – Змінні, типи даних та функції
+## Завдання 2.1 – Технічні специфікації змінні та типи даних
   dart run bin/task1_variables.dart
+## Завдання 2.2 – Технічні специфікації функцій
   dart run bin/task2_functions.dart
-## Завдання 3 – ООП: Класи та об’єкти
+## Завдання 2.3 – Робочі консольні програми
+  #### 1. Калькулятор (`task1_calculator.dart`)
+   dart run dart_basics_tarasiuk/lib/utils/calculator.dart
+  #### 2. Текстовий аналізатор (`task2_text_analyzer.dart`)
+   dart run dart_basics_tarasiuk/lib/utils/text_analyzer.dart
+## Завдання 3.3 – ООП System Demo
   dart run bin/task3_classes.dart
-## Завдання 4 – Колекції та управління даними
+## Завдання 4.2 – Технічні специфікації Collections Demo
   dart run bin/task4_collections.dart
 
 ## Результати виконання програм
-### Завдання 2.1
+### Завдання 2.1 – Технічні специфікації змінні та типи даних
 ![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part1.png)  
 ![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part2.png)
 ![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part3.png)
 ![Variables Demo](dart_basics_tarasiuk/lib/screenshots/task1_variables_part4.png)
 *Файл: `task1_variables.dart`*
 
-### Завдання 2.2
+### Завдання 2.2 – Технічні специфікації функцій
 ![Function Demo](dart_basics_tarasiuk/lib/screenshots/task2_function.png)  
 *Файл: `task2_function.dart`*
 
-### Завдання 2.3
-#### Task 1 Calculator
+### Завдання 2.3 – Робочі консольні програми
+#### 1. Калькулятор (`task1_calculator.dart`)
 ![Calculator Demo](dart_basics_tarasiuk/lib/screenshots/calculator.png)  
 *Файл: `calculator.dart`*
 
-#### Task 2 Text Analyzer
+#### 2. Текстовий аналізатор (`task2_text_analyzer.dart`)
 ![Text Analyzer Demo](dart_basics_tarasiuk/lib/screenshots/text_analyzer.png)  
 *Файл: `text_analyzer.dart`*
 
-### Завдання 3.3 – University Management System
+### Завдання 3.3 – ООП System Demo
 ![Classes Demo](dart_basics_tarasiuk/lib/screenshots/task3_classes_part1.png)
 ![Classes Demo](dart_basics_tarasiuk/lib/screenshots/task3_classes_part2.png)  
 *Файл: `task3_classes.dart`*
 
-### Завдання 4.1 – Колекції та обробка даних
+### Завдання 4.2 – Технічні специфікації Collections Demo
 ![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part1.png)  
 ![Collections Demo](dart_basics_tarasiuk/lib/screenshots/task4_collections_part2.png)  
 *Файл: `task4_collections.dart`*
 
 ## Результати виконання тестів
-
 ### Models Test
 ![Models Test](dart_basics_tarasiuk/lib/screenshots/models_test.png)  
 *Файл: `models_test.dart`*
